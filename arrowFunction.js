@@ -8,3 +8,16 @@ var arrowGreeting = (message, name) => {
 	return message + name;
 }
 
+//shorter version
+var arrow Greeting = (message, name) => message + name;
+
+//one variable
+var arrowGreeting = message => "hello";
+
+//X^2 normal
+var squared = function(x){
+	return x*x;
+}
+
+//X^2 arrow
+var squared = x => x*x;
