@@ -13,3 +13,13 @@ var deliveryBoy = {
 	}
 }
 deliveryBoy.recieve();
+
+//With Arrow functions
+var deliveryBoy = {
+	name: "John",
+	
+	handleMessage: function(message, handler){
+		this.handleMessage("Hello, ", message => console.log(message +this.name));
+	}
+}
+deliveryBoy.recieve();
